@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Example Using Html and CSS Only</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="logo" />
+      </div>
+      <input type="checkbox" id="nav_check" hidden />
+      <label id="overlay" for="nav_check"></label>
+      <nav>
+        <div class="logo">
+          <img src="logo.png" alt="logo" />
+        </div>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </nav>
+      <label for="nav_check" class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+    </header>
+    <footer class="footer">
+      <div class="container footer-flex">
+        <img src="images/logo.png" alt="Lumina Creative" />
+
+        <div>
+          <h4>Contact Us</h4>
+          <ul>
+            <li>(555) 555-5555</li>
+            <li>contact@lumina.test</li>
+            <li>10 Main st Boston MA</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Follow Us</h4>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-pinterest fa-2x"></i></a>
+          <a href="#"><i class="fab fa-tumblr fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
